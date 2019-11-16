@@ -7,20 +7,20 @@ const StripeCheckoutButton = ({ price }) => {
 
   const onToken = token => {
     console.log(token);
-    alert('Payment Successful');
+    alert('Payment Succesful!');
   };
 
   return (
     <StripeCheckout
-      label="Pay Now"
-      name="Ecommerce Company"
-      billingAddresss
+      label='Pay Now'
+      name='CRWN Clothing Ltd.'
+      billingAddress
       shippingAddress
-      image="https://sendeyo.com/up/d/f3eb2117da"
+      image='https://svgshare.com/i/CUz.svg'
       description={`Your total is $${price}`}
       amount={priceForStripe}
-      panelLabel="Pay Now"
-      token={onToken} // the success token passed for
+      panelLabel='Pay Now'
+      token={onToken}
       stripeKey={publishableKey}
     />
   );
