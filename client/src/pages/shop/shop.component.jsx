@@ -10,10 +10,10 @@ import CollectionPageContainer from '../collection/collection.container';
 const ShopPage = ({ fetchCollectionsStart, match }) => {
   useEffect(() => {
     fetchCollectionsStart();
-  }, [fetchCollectionsStart]); // rerender only if fetchcollectionsstart changes
+  }, [fetchCollectionsStart]);
 
   return (
-    <div className="shop-page">
+    <div className='shop-page'>
       <Route
         exact
         path={`${match.path}`}
@@ -31,4 +31,7 @@ const mapDispatchToProps = dispatch => ({
   fetchCollectionsStart: () => dispatch(fetchCollectionsStart())
 });
 
-export default connect(null, mapDispatchToProps)(ShopPage);
+export default connect(
+  null,
+  mapDispatchToProps
+)(ShopPage);

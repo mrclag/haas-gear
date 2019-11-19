@@ -13,7 +13,6 @@ const config = {
   measurementId: 'G-H124WH465J'
 };
 
-
 firebase.initializeApp(config);
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
