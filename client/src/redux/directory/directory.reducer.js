@@ -1,36 +1,36 @@
 const INITIAL_STATE = {
   sections: [
     {
-      title: 'hats',
-      imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+      title: 'stationary',
+      imageUrl: 'https://i.ibb.co/hFjhBXY/haas-pen2.jpg',
       id: 1,
-      linkUrl: 'shop/hats'
+      linkUrl: 'shop/stationary'
     },
     {
-      title: 'jackets',
-      imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+      title: 'stickers',
+      imageUrl: 'https://i.ibb.co/QHwLvZc/haas-stickers.png',
       id: 2,
-      linkUrl: 'shop/jackets'
+      linkUrl: 'shop/stickers'
     },
     {
-      title: 'sneakers',
-      imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+      title: 'misc',
+      imageUrl: 'https://i.ibb.co/WWqjMmv/haas-mug2.jpg',
       id: 3,
-      linkUrl: 'shop/sneakers'
+      linkUrl: 'shop/misc'
     },
     {
-      title: 'womens',
-      imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+      title: 'shirts',
+      imageUrl: 'https://i.ibb.co/k0sbhWf/haas-tee2.jpg',
       size: 'large',
       id: 4,
-      linkUrl: 'shop/womens'
+      linkUrl: 'shop/shirts'
     },
     {
-      title: 'mens',
-      imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+      title: 'other apparel',
+      imageUrl: 'https://i.ibb.co/xHNJrjN/cal-socks.jpg',
       size: 'large',
       id: 5,
-      linkUrl: 'shop/mens'
+      linkUrl: 'shop/apparel'
     }
   ]
 };

@@ -3,7 +3,7 @@ import CustomButton from '../custom-button/custom-button.component';
 
 export const CartDropdownContainer = styled.div`
   position: absolute;
-  width: 240px;
+  width: 300px;
   height: 340px;
   display: flex;
   flex-direction: column;
@@ -13,6 +13,11 @@ export const CartDropdownContainer = styled.div`
   top: 90px;
   right: 40px;
   z-index: 5;
+  @media screen and (max-width: 800px) {
+    width: 240px;
+    right: 15px;
+    top: 80px;
+  }
 `;
 
 export const CartDropdownButton = styled(CustomButton)`

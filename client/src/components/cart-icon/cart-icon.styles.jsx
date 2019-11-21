@@ -13,13 +13,20 @@ export const CartContainer = styled.div`
 `;
 
 export const ShoppingIcon = styled(ShoppingIconSVG)`
-  width: 24px;
-  height: 24px;
+  width: 38px;
+  height: 38px;
+  @media screen and (max-width: 800px) {
+    width: 30px;
+    height: 30px;
+  }
 `;
 
 export const ItemCountContainer = styled.span`
   position: absolute;
-  font-size: 10px;
+  font-size: 14px;
   font-weight: bold;
-  bottom: 12px;
+  bottom: 10px;
+  @media screen and (max-width: 800px) {
+    font-size: 12px;
+  }
 `;
